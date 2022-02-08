@@ -1,0 +1,265 @@
+.bg-image {
+  background-image: url("images/ground.jpg");
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 61px;
+  margin-top: 31px;
+}
+
+.menu {
+  margin-right: 61px;
+  margin-top: 31px;
+}
+
+.main-text {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 61px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 872px;
+  text-align: center;
+  text-shadow: 2px 2px #ff0000;
+}
+
+.search-box {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  display: flex;
+}
+
+.search-input {
+  width: 800px;
+  height: 84px;
+  display: inline-block;
+  margin-right: 21px;
+  font-size: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.search-button {
+  width: 237px;
+  height: 84px;
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  background: rgb(40, 54, 125);
+  background: linear-gradient(
+    90deg,
+    rgba(40, 54, 125, 1) 0%,
+    rgba(167, 26, 180, 1) 100%,
+    rgba(247, 200, 43, 1) 100%,
+    rgba(176, 9, 43, 1) 100%
+  );
+  color: white;
+  border-radius: 10px;
+}
+
+.search-iconca {
+  padding-right: 10px;
+}
+
+.second-section {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1174px;
+  margin-top: 40px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-title {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 13px;
+}
+
+.main-title {
+  font-size: 42px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 24px;
+}
+
+.lorem-text {
+  font-size: 14px;
+  font-family: "Calibri", sans-serif;
+  font-weight: lighter;
+}
+
+.top-boxes {
+  display: flex;
+  margin-top: 66px;
+}
+
+.left-box {
+  width: 771px;
+  height: 469px;
+  background-image: url("images/image1.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(241, 241, 241);
+  position: relative;
+}
+
+.right-box {
+  width: 374px;
+  height: 469px;
+  background-color: blue;
+  margin-left: 29px;
+  background-color: rgb(241, 241, 241);
+  background-image: url("images/image2.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.text-in-div {
+  color: white;
+  position: absolute;
+  top: 365px;
+  left: 43px;
+  font-family: "Montserrat", sans-serif;
+  color: #545454;
+}
+
+.sport-box {
+  background-color: #fec200;
+  width: 107px;
+  height: 30px;
+  position: absolute;
+  top: 311px;
+  right: 0px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px 0px 0px 0px;
+}
+
+.sport-box-right {
+  background-color: #fec200;
+  width: 107px;
+  height: 30px;
+  position: absolute;
+  top: 325px;
+  right: 0.4px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px 0px 0px 0px;
+}
+
+.right-div-text {
+  position: absolute;
+  top: 396px;
+  width: 304px;
+  font-family: sans-serif;
+  color: #545454;
+  margin-bottom: 20px;
+  margin-left: 35px;
+  text-align: center;
+}
+
+.bottom-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.first-box {
+  width: 373px;
+  height: 469px;
+  background-image: url("images/image3.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(241, 241, 241);
+  position: relative;
+}
+
+.second-box {
+  position: relative;
+  width: 373px;
+  height: 469px;
+  background-color: rgb(102, 34, 165);
+  background-image: url("images/image4.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(241, 241, 241);
+}
+
+.third-box {
+  width: 373px;
+  height: 469px;
+  background-color: orange;
+  position: relative;
+  background-image: url("images/image5.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(241, 241, 241);
+}
+
+.date-author {
+  position: absolute;
+  top: 247px;
+  left: 35px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  color: #545454;
+}
+
+.yellow-author {
+  color: #fdc101;
+}
+
+.sport-box-for-bottom-first {
+  background-color: #fec200;
+  width: 107px;
+  height: 30px;
+  position: absolute;
+  top: 153px;
+  right: 0px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px 0px 0px 0px;
+}
+
+.video-post {
+  color: #545454;
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  top: 283px;
+  left: 35px;
+}
+
+.text-for-first-second-box {
+  color: #545454;
+  font-family: sans-serif;
+  position: absolute;
+  top: 356px;
+  left: 35px;
+}

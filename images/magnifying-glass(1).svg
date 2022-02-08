@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21.6" height="21.6" viewBox="0 0 21.6 21.6">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="21.6" height="21.6" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="magnifying-glass_1_" data-name="magnifying-glass(1)" clip-path="url(#clip-path)">
+    <g id="magnifying-glass_1_2" data-name="magnifying-glass(1)" transform="translate(1 1)">
+      <path id="Shape" d="M19.017,19.6a.592.592,0,0,1-.413-.174L13.84,14.663a8.365,8.365,0,1,1,.826-.826L19.43,18.6a.587.587,0,0,1-.413,1ZM8.355,1.173A7.186,7.186,0,1,0,15.54,8.357,7.193,7.193,0,0,0,8.355,1.173Z" fill="#fff" stroke="#fff" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
